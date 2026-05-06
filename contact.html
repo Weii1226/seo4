@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們 | Aura 香水</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="Aura Logo" id="logo-img" onerror="this.src='images/logo.webp'"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">公司簡介</a></li>
+            <li><a href="men.html">男性香水</a></li>
+            <li><a href="women.html">女性香水</a></li>
+            <li><a href="other.html">其它類</a></li>
+            <li><a href="contact.html" class="active">聯絡我們</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>聯絡我們</h1>
+        <p>我們隨時為您解答</p>
+    </header>
+
+    <main>
+        <form class="contact-form" action="#" onsubmit="alert('訊息已送出！我們會盡快回覆您。'); return false;">
+            <div class="form-group">
+                <input type="text" placeholder="您的姓名" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="電子郵件" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="您的訊息" required></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">送出訊息</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aura Perfume. All rights reserved.</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
